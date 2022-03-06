@@ -10,3 +10,9 @@
   5.上次在服务器上修改您检索的HTML文件是什么时候？
   6.浏览器返回内容的字节数是多少？
   7.通过检查数据包内容窗口中的原始数据，你是否看到有协议头在数据包列表窗口中未显示？ 如果是，请举一个例子。
+  
+  访问：http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html并回答下述问题：
+    8.检查从浏览器到服务器的第一个HTTP GET请求的内容。您是否在HTTP GET中看到“IF-MODIFIED-SINCE”行？
+    9.检查服务器响应的内容。服务器是否显式返回了文件的内容？你怎么知道？
+    10.现在检查从浏览器到服务器的第二个HTTP GET请求的内容。你看到HTTP GET中的“IF-MODIFIED-SINCE:”行了吗？如果是，那么“If-MODIFIED-SINCE:”标题后面有什么信息？
+    11.服务器响应第二个HTTP GET返回的HTTP状态代码和短语是什么？服务器是否显式返回了文件的内容？
