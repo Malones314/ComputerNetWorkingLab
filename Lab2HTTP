@@ -1,0 +1,28 @@
+Lab2HTTP2_0：检索长文件
+和实验1一样，打开新的网页，捕捉http信息。http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file3.html
+
+Q：
+  1.您的浏览器发送多少HTTP GET请求消息？哪个数据包包含了美国权利法案的消息？
+  2.哪个数据包包含响应HTTP GET请求的状态码和短语？
+  3.响应中的状态码和短语是什么？
+  4.需要多少包含数据的TCP段来执行单个HTTP响应和权利法案文本？
+
+Lab2HTTP2_1:具有嵌入对象的HTML文档
+和实验1一样，打开新的网页，捕捉http信息。http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html
+
+Q:
+  1.您的浏览器发送了几个HTTP GET请求消息？ 这些GET请求发送到哪个IP地址？
+  2. 浏览器从两个网站串行还是并行下载了两张图片？请说明。
+  
+Lab2HTTP2_2:HTTP认证
+访问受密码保护的网站，并检查网站的HTTP消息交换的序列。URL http://gaia.cs.umass.edu/wireshark-labs/protected_pages/HTTP-wireshark-file5.html 是受密码保护的。
+用户名是“wireshark-students”（不包含引号），密码是“network”（再次不包含引号）。所以让我们访问这个“安全的”受密码保护的网站。执行以下操作：
+
+* 请确保浏览器的缓存被清除，如上所述，然后关闭你的浏览器，再然后启动浏览器
+* 启动Wireshark数据包嗅探器。
+* 在浏览器中输入以下URL http://gaia.cs.umass.edu/wireshark-labs/protected_pages/HTTP-wiresharkfile5.html 在弹出框中键入所请求的用户名和密码。
+* 停止Wireshark数据包捕获，并在display-filter-specification窗口中输入“http”，以便只显示捕获的HTTP消息。
+
+Q:
+  1. 对于您的浏览器的初始HTTP GET消息，服务器响应（状态码和短语）是什么响应？
+  2. 当您的浏览器第二次发送HTTP GET消息时，HTTP GET消息中包含哪些新字段？
