@@ -12,7 +12,7 @@ Lab2HTTP2_1:具有嵌入对象的HTML文档
 
 Q:
   1.您的浏览器发送了几个HTTP GET请求消息？ 这些GET请求发送到哪个IP地址？
-  2. 浏览器从两个网站串行还是并行下载了两张图片？请说明。
+  2. 浏览器从网站串行还是并行下载了两张图片？请说明。
   
 Lab2HTTP2_2:HTTP认证
 访问受密码保护的网站，并检查网站的HTTP消息交换的序列。URL http://gaia.cs.umass.edu/wireshark-labs/protected_pages/HTTP-wireshark-file5.html 是受密码保护的。
