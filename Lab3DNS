@@ -3,7 +3,9 @@
   2. 运行*nslookup*来确定一个欧洲的大学的权威DNS服务器。
   3. 运行*nslookup*，使用问题2中一个已获得的DNS服务器，来查询Yahoo！邮箱的邮件服务器。它的IP地址是什么？
 
-3_2：
+3_2：使用wireshark观察https://www.ietf.org/
+  使用ipconfig/displaydns清除dns缓存
+  使用ipconfig得到ip地址
   4. 找到DNS查询和响应消息。它们是否通过UDP或TCP发送？
   5. DNS查询消息的目标端口是什么？ DNS响应消息的源端口是什么？
   6. DNS查询消息发送到哪个IP地址？使用ipconfig来确定本地DNS服务器的IP地址。这两个IP地址是否相同？
